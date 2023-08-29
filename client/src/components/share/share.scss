@@ -16,8 +16,9 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
+        
 
-        .left {
+        .left{
           display: flex;
           align-items: center;
           flex: 3;
@@ -37,15 +38,16 @@
             color: themed("textColor");
           }
         }
-        .right {
+        .right{
           flex: 1;
           display: flex;
           justify-content: flex-end;
-          .file {
+          .file{
             width: 100px;
             height: 100px;
             object-fit: cover;
             border-radius: 0px;
+
           }
         }
       }
